@@ -89,7 +89,7 @@ export default function InventarioPage() {
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" horizontal={false} />
               <XAxis type="number" tick={{ fontSize: 10 }} unit=" días" />
               <YAxis type="category" dataKey="categoria_principal" tick={{ fontSize: 10 }} width={130} />
-              <Tooltip formatter={(v: number) => `${v} días`} />
+              <Tooltip formatter={(v) => `${Number(v)} días`} />
               <Bar dataKey="dias_cob_prom" radius={[0,4,4,0]} name="Días cobertura">
                 {porCategoria.map((d,i) => (
                   <Cell key={i} fill={d.dias_cob_prom < 3 ? '#EF4444' : d.dias_cob_prom < 5 ? '#F59E0B' : '#10B981'} />

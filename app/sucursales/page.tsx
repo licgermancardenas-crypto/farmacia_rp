@@ -37,7 +37,7 @@ export default function SucursalesPage() {
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" horizontal={false} />
               <XAxis type="number" tick={{ fontSize: 10 }} tickFormatter={v => formatARS(v)} />
               <YAxis type="category" dataKey="nombre_sucursal" tick={{ fontSize: 10 }} width={110} />
-              <Tooltip formatter={(v: number) => formatARS(v)} />
+              <Tooltip formatter={(v) => formatARS(Number(v))} />
               <Bar dataKey="ingresos" radius={[0,4,4,0]} name="Ingresos">
                 {fisicas.map((_, i) => <Cell key={i} fill={COLORS[i % COLORS.length]} />)}
               </Bar>
@@ -52,7 +52,7 @@ export default function SucursalesPage() {
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" horizontal={false} />
               <XAxis type="number" tick={{ fontSize: 10 }} tickFormatter={v => formatARS(v)} />
               <YAxis type="category" dataKey="nombre_sucursal" tick={{ fontSize: 10 }} width={110} />
-              <Tooltip formatter={(v: number) => formatARS(v)} />
+              <Tooltip formatter={(v) => formatARS(Number(v))} />
               <Bar dataKey="ticket_prom" fill="#C9A84C" radius={[0,4,4,0]} name="Ticket Promedio" />
             </BarChart>
           </ResponsiveContainer>

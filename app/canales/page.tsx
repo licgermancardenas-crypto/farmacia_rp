@@ -75,7 +75,7 @@ export default function CanalesPage() {
             <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
             <XAxis dataKey="periodo" tick={{ fontSize: 10 }} interval={2} />
             <YAxis tick={{ fontSize: 10 }} tickFormatter={v => formatARS(v)} />
-            <Tooltip formatter={(v: number) => formatARS(v)} />
+            <Tooltip formatter={(v) => formatARS(Number(v))} />
             <Legend wrapperStyle={{ fontSize: 11 }} />
             <Area type="monotone" dataKey="Físico" stroke="#1B3A5C" strokeWidth={2} fill="url(#gradFis)" />
             <Area type="monotone" dataKey="E-commerce" stroke="#C9A84C" strokeWidth={2} fill="url(#gradEco)" />
@@ -90,7 +90,7 @@ export default function CanalesPage() {
             <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
             <XAxis dataKey="año" tick={{ fontSize: 11 }} />
             <YAxis tick={{ fontSize: 10 }} tickFormatter={v => formatARS(v)} />
-            <Tooltip formatter={(v: number) => formatARS(v)} />
+            <Tooltip formatter={(v) => formatARS(Number(v))} />
             <Legend wrapperStyle={{ fontSize: 11 }} />
             <Bar dataKey="Físico" fill="#1B3A5C" stackId="a" radius={[0,0,0,0]} />
             <Bar dataKey="E-commerce" fill="#C9A84C" stackId="a" radius={[4,4,0,0]} />

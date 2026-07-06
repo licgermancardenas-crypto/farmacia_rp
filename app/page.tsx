@@ -67,7 +67,7 @@ export default function Home() {
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
               <XAxis dataKey="periodo" tick={{ fontSize: 10 }} tickFormatter={v => v.slice(2)} interval={2} />
               <YAxis tick={{ fontSize: 10 }} tickFormatter={v => formatARS(v)} />
-              <Tooltip formatter={(v: number) => formatARS(v)} labelFormatter={l => `Período: ${l}`} />
+              <Tooltip formatter={(v) => formatARS(Number(v))} labelFormatter={l => `Período: ${l}`} />
               <Area type="monotone" dataKey="ingresos" stroke="#1B3A5C" strokeWidth={2}
                 fill="url(#gradIngreso)" name="Ingresos Netos" />
             </AreaChart>
@@ -82,7 +82,7 @@ export default function Home() {
                 dataKey="value" nameKey="name" paddingAngle={2}>
                 {mpData.map((_, i) => <Cell key={i} fill={COLORS[i]} />)}
               </Pie>
-              <Tooltip formatter={(v: number) => `${v}%`} />
+              <Tooltip formatter={(v) => `${Number(v)}%`} />
             </PieChart>
           </ResponsiveContainer>
           <div className="mt-2 space-y-1">
@@ -107,7 +107,7 @@ export default function Home() {
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" horizontal={false} />
               <XAxis type="number" tick={{ fontSize: 10 }} tickFormatter={v => formatARS(v)} />
               <YAxis type="category" dataKey="categoria_principal" tick={{ fontSize: 10 }} width={120} />
-              <Tooltip formatter={(v: number) => formatARS(v)} />
+              <Tooltip formatter={(v) => formatARS(Number(v))} />
               <Bar dataKey="ingresos" radius={[0,4,4,0]} name="Ingresos">
                 {categorias.slice(0,8).map((_, i) => <Cell key={i} fill={COLORS[i % COLORS.length]} />)}
               </Bar>
@@ -122,7 +122,7 @@ export default function Home() {
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" horizontal={false} />
               <XAxis type="number" tick={{ fontSize: 10 }} tickFormatter={v => formatARS(v)} />
               <YAxis type="category" dataKey="evento_comercial" tick={{ fontSize: 10 }} width={120} />
-              <Tooltip formatter={(v: number) => formatARS(v)} />
+              <Tooltip formatter={(v) => formatARS(Number(v))} />
               <Bar dataKey="ingresos_prom" fill="#C9A84C" radius={[0,4,4,0]} name="Ingreso Promedio" />
             </BarChart>
           </ResponsiveContainer>

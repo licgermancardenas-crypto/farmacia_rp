@@ -2,7 +2,7 @@
 
 > Interactive BI dashboard showcasing 3 years of commercial data (2023–2025) for a pharmacy chain operating in Argentina. Built as a portfolio piece demonstrating end-to-end data analytics work: dataset generation, ETL design, KPI definition, and front-end visualization.
 
-**Live demo →** [farmacias-rp.vercel.app](https://farmacias-rp.vercel.app) *(deploying)*
+**Live demo →** [farmacia-rp-six.vercel.app](https://farmacia-rp-six.vercel.app)
 
 ---
 

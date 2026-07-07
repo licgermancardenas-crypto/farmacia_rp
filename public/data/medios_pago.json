@@ -1,1 +1,136 @@
-{"Efectivo": 10.6, "D\u00e9bito": 26.7, "Cr\u00e9dito": 34.1, "MercadoPago": 22.7, "Obra Social": 5.9}
+{
+  "mix_global": [
+    {
+      "medio_pago": "Tarjeta Crédito",
+      "pct": 31.5,
+      "ticket_prom": 43336.0,
+      "transacciones": 15626
+    },
+    {
+      "medio_pago": "Tarjeta Débito",
+      "pct": 24.3,
+      "ticket_prom": 43048.0,
+      "transacciones": 12139
+    },
+    {
+      "medio_pago": "MercadoPago",
+      "pct": 20.2,
+      "ticket_prom": 43957.0,
+      "transacciones": 9857
+    },
+    {
+      "medio_pago": "Obra Social",
+      "pct": 14.1,
+      "ticket_prom": 40800.0,
+      "transacciones": 7438
+    },
+    {
+      "medio_pago": "Efectivo",
+      "pct": 9.8,
+      "ticket_prom": 42803.0,
+      "transacciones": 4940
+    }
+  ],
+  "evolucion_año": [
+    {
+      "año": 2023,
+      "Efectivo": 9.7,
+      "MercadoPago": 20.0,
+      "Obra Social": 14.5,
+      "Tarjeta Crédito": 31.4,
+      "Tarjeta Débito": 24.5
+    },
+    {
+      "año": 2024,
+      "Efectivo": 10.3,
+      "MercadoPago": 19.2,
+      "Obra Social": 15.1,
+      "Tarjeta Crédito": 30.8,
+      "Tarjeta Débito": 24.6
+    },
+    {
+      "año": 2025,
+      "Efectivo": 9.7,
+      "MercadoPago": 19.9,
+      "Obra Social": 14.9,
+      "Tarjeta Crédito": 31.6,
+      "Tarjeta Débito": 23.9
+    }
+  ],
+  "ticket_por_año": [
+    {
+      "año": 2023,
+      "Efectivo": 12730.0,
+      "MercadoPago": 12915.0,
+      "Obra Social": 11909.0,
+      "Tarjeta Crédito": 12628.0,
+      "Tarjeta Débito": 13027.0
+    },
+    {
+      "año": 2024,
+      "Efectivo": 45319.0,
+      "MercadoPago": 45432.0,
+      "Obra Social": 41097.0,
+      "Tarjeta Crédito": 45476.0,
+      "Tarjeta Débito": 46744.0
+    },
+    {
+      "año": 2025,
+      "Efectivo": 63244.0,
+      "MercadoPago": 66328.0,
+      "Obra Social": 61742.0,
+      "Tarjeta Crédito": 64601.0,
+      "Tarjeta Débito": 63061.0
+    }
+  ],
+  "mix_por_categoria": [
+    {
+      "categoria": "Fragancias",
+      "Efectivo": 9.1,
+      "MercadoPago": 21.0,
+      "Obra Social": 12.6,
+      "Tarjeta Crédito": 33.3,
+      "Tarjeta Débito": 23.9
+    },
+    {
+      "categoria": "Corporales",
+      "Efectivo": 10.3,
+      "MercadoPago": 21.2,
+      "Obra Social": 12.7,
+      "Tarjeta Crédito": 31.1,
+      "Tarjeta Débito": 24.7
+    },
+    {
+      "categoria": "Cuidado de la Piel",
+      "Efectivo": 9.8,
+      "MercadoPago": 20.6,
+      "Obra Social": 13.2,
+      "Tarjeta Crédito": 31.7,
+      "Tarjeta Débito": 24.7
+    },
+    {
+      "categoria": "Hombre",
+      "Efectivo": 10.5,
+      "MercadoPago": 20.4,
+      "Obra Social": 12.7,
+      "Tarjeta Crédito": 31.6,
+      "Tarjeta Débito": 24.8
+    },
+    {
+      "categoria": "Dermocosmética",
+      "Efectivo": 11.4,
+      "MercadoPago": 19.1,
+      "Obra Social": 13.7,
+      "Tarjeta Crédito": 29.4,
+      "Tarjeta Débito": 26.3
+    },
+    {
+      "categoria": "Capilares",
+      "Efectivo": 9.2,
+      "MercadoPago": 20.5,
+      "Obra Social": 13.2,
+      "Tarjeta Crédito": 31.5,
+      "Tarjeta Débito": 25.6
+    }
+  ]
+}

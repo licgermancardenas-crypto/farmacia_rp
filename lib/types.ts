@@ -66,3 +66,17 @@ export interface CanalMes {
   ingresos: number
   unidades: number
 }
+
+export interface MixGlobal {
+  medio_pago: string
+  pct: number
+  ticket_prom: number
+  transacciones: number
+}
+
+export interface MediosPago {
+  mix_global: MixGlobal[]
+  evolucion_año: Record<string, number>[]
+  ticket_por_año: Record<string, number>[]
+  mix_por_categoria: Record<string, number | string>[]
+}

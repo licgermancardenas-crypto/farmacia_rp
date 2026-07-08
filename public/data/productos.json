@@ -1,0 +1,339 @@
+{
+  "kpis": {
+    "total_skus": 1400,
+    "total_marcas": 169,
+    "precio_prom_global": 26637.0,
+    "descuento_prom_pct": 9.1
+  },
+  "top20_productos": [
+    {
+      "nombre_producto": "Dolce & Gabbana The One Pour Homme Parfum 100 Ml + Edp 10 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "DOLCE &amp; GABBANA",
+      "ingresos": 19380746.0,
+      "unidades": 66,
+      "transacciones": 34,
+      "precio_prom": 298836.0
+    },
+    {
+      "nombre_producto": "Armani Acqua Di Gio Eau de Parfum Intense 100 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "ARMANI",
+      "ingresos": 14350506.0,
+      "unidades": 52,
+      "transacciones": 31,
+      "precio_prom": 255151.0
+    },
+    {
+      "nombre_producto": "Armani My Way Sunny Vanilla Eau de Parfum 90 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "ARMANI",
+      "ingresos": 14161734.0,
+      "unidades": 52,
+      "transacciones": 34,
+      "precio_prom": 271940.0
+    },
+    {
+      "nombre_producto": "Armani Stronger With You Intensely Edp Intense 100 Ml + 15 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "ARMANI",
+      "ingresos": 13696588.0,
+      "unidades": 54,
+      "transacciones": 31,
+      "precio_prom": 274269.0
+    },
+    {
+      "nombre_producto": "Armani Code Pour Homme Parfum 125 Ml + 15 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "ARMANI",
+      "ingresos": 13493851.0,
+      "unidades": 48,
+      "transacciones": 28,
+      "precio_prom": 342213.0
+    },
+    {
+      "nombre_producto": "Rabanne Invictus Elixir Parfum Elixir 100 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "RABANNE",
+      "ingresos": 13163000.0,
+      "unidades": 70,
+      "transacciones": 30,
+      "precio_prom": 198010.0
+    },
+    {
+      "nombre_producto": "Eleganza Ion Bloom Violet",
+      "categoria_principal": "Electro Belleza",
+      "marca": "Gama",
+      "ingresos": 12955523.0,
+      "unidades": 129,
+      "transacciones": 64,
+      "precio_prom": 114906.0
+    },
+    {
+      "nombre_producto": "La Roche Posay Pure Vitamin C 10 para pieles sensibles 30 Ml",
+      "categoria_principal": "Hombre",
+      "marca": "La Roche Posay",
+      "ingresos": 12948966.0,
+      "unidades": 133,
+      "transacciones": 76,
+      "precio_prom": 108283.0
+    },
+    {
+      "nombre_producto": "Armani Acqua Di Gio Pour Homme Edt 100 Ml Recargable",
+      "categoria_principal": "Fragancias",
+      "marca": "ARMANI",
+      "ingresos": 12877250.0,
+      "unidades": 50,
+      "transacciones": 27,
+      "precio_prom": 291020.0
+    },
+    {
+      "nombre_producto": "Azzaro Forever Wanted Absolu Parfum 50 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "Azzaro",
+      "ingresos": 12599864.0,
+      "unidades": 72,
+      "transacciones": 31,
+      "precio_prom": 200558.0
+    },
+    {
+      "nombre_producto": "Dolce & Gabbana Light Blue Pour Homme Edt 100 Ml + Shower Gel + Deo Stick",
+      "categoria_principal": "Fragancias",
+      "marca": "DOLCE &amp; GABBANA",
+      "ingresos": 12420842.0,
+      "unidades": 65,
+      "transacciones": 30,
+      "precio_prom": 206893.0
+    },
+    {
+      "nombre_producto": "Yves Saint Laurent Libre Le Parfum x 90 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "YVES SAINT LAURENT",
+      "ingresos": 12274952.0,
+      "unidades": 44,
+      "transacciones": 28,
+      "precio_prom": 319876.0
+    },
+    {
+      "nombre_producto": "Rabanne Million Gold Elixir Parfum Intense 100 Ml + 10 Ml + Deo Spray",
+      "categoria_principal": "Fragancias",
+      "marca": "RABANNE",
+      "ingresos": 11875182.0,
+      "unidades": 67,
+      "transacciones": 38,
+      "precio_prom": 192867.0
+    },
+    {
+      "nombre_producto": "Armani Stronger With You Powerfully Eau de Parfum 100 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "ARMANI",
+      "ingresos": 11624753.0,
+      "unidades": 43,
+      "transacciones": 25,
+      "precio_prom": 289991.0
+    },
+    {
+      "nombre_producto": "Jean Paul Gaultier Scandal Pour Homme Edp Intense 100 Ml + 10 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "JEAN PAUL GAULTIER",
+      "ingresos": 11293362.0,
+      "unidades": 59,
+      "transacciones": 33,
+      "precio_prom": 208406.0
+    },
+    {
+      "nombre_producto": "Valentino Uomo Born In Roma Purple Melancholia Edt 100 Ml",
+      "categoria_principal": "Fragancias",
+      "marca": "VALENTINO",
+      "ingresos": 11018854.0,
+      "unidades": 46,
+      "transacciones": 30,
+      "precio_prom": 265589.0
+    },
+    {
+      "nombre_producto": "Via Veneto Ion",
+      "categoria_principal": "Electro Belleza",
+      "marca": "Gama",
+      "ingresos": 10918954.0,
+      "unidades": 147,
+      "transacciones": 79,
+      "precio_prom": 90531.0
+    },
+    {
+      "nombre_producto": "Megacistin Colageno",
+      "categoria_principal": "Suplementos",
+      "marca": "Laboratorios Gramon Millet",
+      "ingresos": 10878298.0,
+      "unidades": 341,
+      "transacciones": 197,
+      "precio_prom": 36934.0
+    },
+    {
+      "nombre_producto": "Isdin Isdinceutics Flavo-C Serum 30 Ml",
+      "categoria_principal": "Hombre",
+      "marca": "Isdin",
+      "ingresos": 10611384.0,
+      "unidades": 127,
+      "transacciones": 63,
+      "precio_prom": 93650.0
+    },
+    {
+      "nombre_producto": "ISDIN Eryfotona AK-NMSC SPF100+ 50 Ml",
+      "categoria_principal": "Corporales",
+      "marca": "Isdin",
+      "ingresos": 10587674.0,
+      "unidades": 157,
+      "transacciones": 72,
+      "precio_prom": 77133.0
+    }
+  ],
+  "top10_marcas": [
+    {
+      "marca": "Isdin",
+      "ingresos": 186443357.0,
+      "unidades": 4021,
+      "transacciones": 2244
+    },
+    {
+      "marca": "Vichy",
+      "ingresos": 121520035.0,
+      "unidades": 2584,
+      "transacciones": 1502
+    },
+    {
+      "marca": "ARMANI",
+      "ingresos": 95006436.0,
+      "unidades": 381,
+      "transacciones": 219
+    },
+    {
+      "marca": "La Roche Posay",
+      "ingresos": 86242732.0,
+      "unidades": 1688,
+      "transacciones": 928
+    },
+    {
+      "marca": "Gama",
+      "ingresos": 67073338.0,
+      "unidades": 1286,
+      "transacciones": 743
+    },
+    {
+      "marca": "Tangle Teezer",
+      "ingresos": 57190215.0,
+      "unidades": 2275,
+      "transacciones": 1288
+    },
+    {
+      "marca": "RABANNE",
+      "ingresos": 56225682.0,
+      "unidades": 322,
+      "transacciones": 177
+    },
+    {
+      "marca": "Cetaphil",
+      "ingresos": 52812613.0,
+      "unidades": 1899,
+      "transacciones": 1052
+    },
+    {
+      "marca": "Arex",
+      "ingresos": 49648859.0,
+      "unidades": 3185,
+      "transacciones": 1822
+    },
+    {
+      "marca": "Avene",
+      "ingresos": 48019291.0,
+      "unidades": 1060,
+      "transacciones": 601
+    }
+  ],
+  "marcas_por_categoria": [
+    [
+      {
+        "marca": "ARMANI",
+        "ingresos": 95006436.0,
+        "categoria": "Fragancias"
+      },
+      {
+        "marca": "RABANNE",
+        "ingresos": 56225682.0,
+        "categoria": "Fragancias"
+      },
+      {
+        "marca": "DOLCE &amp; GABBANA",
+        "ingresos": 46120689.0,
+        "categoria": "Fragancias"
+      }
+    ],
+    [
+      {
+        "marca": "Isdin",
+        "ingresos": 55739692.0,
+        "categoria": "Corporales"
+      },
+      {
+        "marca": "La Roche Posay",
+        "ingresos": 43814889.0,
+        "categoria": "Corporales"
+      },
+      {
+        "marca": "Aderma",
+        "ingresos": 29056713.0,
+        "categoria": "Corporales"
+      }
+    ],
+    [
+      {
+        "marca": "Arex",
+        "ingresos": 39059744.0,
+        "categoria": "Cuidado de la Piel"
+      },
+      {
+        "marca": "Dermaglós",
+        "ingresos": 38977799.0,
+        "categoria": "Cuidado de la Piel"
+      },
+      {
+        "marca": "CeraVe",
+        "ingresos": 35327674.0,
+        "categoria": "Cuidado de la Piel"
+      }
+    ],
+    [
+      {
+        "marca": "Isdin",
+        "ingresos": 83418961.0,
+        "categoria": "Hombre"
+      },
+      {
+        "marca": "Avene",
+        "ingresos": 37999101.0,
+        "categoria": "Hombre"
+      },
+      {
+        "marca": "Eximia",
+        "ingresos": 29125515.0,
+        "categoria": "Hombre"
+      }
+    ],
+    [
+      {
+        "marca": "Vichy",
+        "ingresos": 40232423.0,
+        "categoria": "Dermocosmética"
+      },
+      {
+        "marca": "Isdin",
+        "ingresos": 32187673.0,
+        "categoria": "Dermocosmética"
+      },
+      {
+        "marca": "La Roche Posay",
+        "ingresos": 25774533.0,
+        "categoria": "Dermocosmética"
+      }
+    ]
+  ]
+}

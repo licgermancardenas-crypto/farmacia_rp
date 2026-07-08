@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import {
-  LayoutDashboard, Store, Tag, Package, Wifi, FlaskConical, CreditCard
+  LayoutDashboard, Store, Tag, Package, Wifi, FlaskConical, CreditCard, ShoppingBag
 } from 'lucide-react'
 
 const NAV = [
@@ -13,6 +13,7 @@ const NAV = [
   { href: '/inventario',    label: 'Inventario',     icon: Package },
   { href: '/canales',       label: 'Canales',        icon: Wifi },
   { href: '/medios-de-pago',label: 'Medios de Pago', icon: CreditCard },
+  { href: '/productos',     label: 'Productos',      icon: ShoppingBag },
 ]
 
 export default function Sidebar() {
